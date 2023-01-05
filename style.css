@@ -5,6 +5,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -12,12 +13,40 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
     
 }
 nav li{
     list-style: none;
+    margin-left: 50px
+    ;
 }
 
 .text-primary{
     color: #FD6E0A ;
+}
+.btn-primary{
+    color: #FFFFFF;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px 19px 36px;
+}
+
+/* banner style */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-titile{
+
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
 }
