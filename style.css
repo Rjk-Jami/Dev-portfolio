@@ -11,6 +11,7 @@
     background-position: bottom right, left;
 height: 837px;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
