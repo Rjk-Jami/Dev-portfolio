@@ -82,6 +82,8 @@ main{
  background: #FFF8F3;
  border-radius: 10px;
  padding: 130px 150px;
+ text-align: center;
+
 
 }
  .section-title{
@@ -97,4 +99,17 @@ main{
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+}
+.about-info-c{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-d{
+    color: #474747;
+    font-size: 20px;
+
 }
