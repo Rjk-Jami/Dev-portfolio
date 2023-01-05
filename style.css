@@ -43,10 +43,20 @@ nav li{
     align-items: center;
 }
 .banner-titile{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-top: 20px;
 
 }
 .banner-subtitle{
     font-weight: 600;
     font-size: 45px;
     color: #474747;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
 }
