@@ -9,8 +9,9 @@
     background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-height: 837px;
+
 }
+
 
 nav{
     display: flex;
@@ -28,10 +29,26 @@ nav ul{
 }
 nav li{
     list-style: none;
-    margin-left: 50px
-    ;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
 }
+a{
+    text-decoration: none;
+    color: #FFFFFF;
 
+
+}
+a:visited{
+    color:#474747;
+}
+a:hover{
+    color: mediumslateblue;
+    font-weight: 700;
+}
+input:focus{
+    color: cornflowerblue;
+}
 .text-primary{
     color: #FD6E0A ;
 }
@@ -73,7 +90,7 @@ nav li{
 }
  /* about section */
 main{
-    max-width: 1140px;
+    max-width: 100vh;
     margin: 0 auto;
 
 
@@ -195,6 +212,9 @@ margin-bottom: 10px;
 .contact .section-title{
     text-align: left;
 }
+.link{
+    display: flex;
+}
 
 .contact input[type="text"],input[type="email"], textarea{
     margin-bottom: 24px;
@@ -209,4 +229,67 @@ height: 64px;
 .contact a{
     text-decoration: none;
     padding-right: 24px;
+}
+@media screen and (max-width:576px) {
+    nav,
+    nav > ul,
+    .banner,
+    .skills-container,
+    .resume-content,
+    .contact, 
+    .about-me,
+    .about-info-c{
+        flex-direction: column;
+    }
+    nav{
+        margin: 20px;
+    }
+    nav > ul{
+        align-items: flex-start;
+        padding: 10px;
+        padding-left: 0;
+    }
+    nav li{
+        padding-bottom: 8px;
+        margin-left: 0;
+    }
+    .banner{
+        margin: 10px 10px 0px 10px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner button{
+        margin: 10px 0;
+    }
+    .resume-content{
+
+        padding: 15px;
+    }
+    .contact, .about-me{
+        padding: 20px;
+        text-align: justify;
+
+    }
+    .about-info-c{
+        gap: 20px;
+        text-align: center;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .link{
+        display: flex;
+    }
+    .contact input[type="text"],input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
+
+.hide{
+    display: none;
 }
